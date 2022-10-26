@@ -1,9 +1,9 @@
 # 0x00. AirBnB clone - The console
 ### Project Description
-    - This is a project to create AirBnB clone.
-    - [console] - contains the codes for command interpreter
-    - [models] - is a folder containing the Parent class (BaseModel), the subclasses (User, Amenity, State, Place, Review) and the engine folder hosting the Filestorage.
-    - [tests] - a folder containing all the unittest for the codes.
+   - This is a project to create AirBnB clone.
+   - [console] - contains the codes for command interpreter
+   - [models] - is a folder containing the Parent class (BaseModel), the subclasses (User, Amenity, State, Place, Review) and the engine folder hosting the Filestorage.
+   - [tests] - a folder containing all the unittest for the codes.
 ### Description of command line interpreter
 ### Installation
 git clone git@github.com:gjdame/AirBnB_clone.git cd AirBnB_clone
@@ -31,65 +31,65 @@ EOF help quit (hbnb) $
 ### How to use it
 In the console.py, you will find the following commands:
 
-    - help
+   - help
 
-         - Usage: help
-         - Function: displays available commands
+        - Usage: help
+        - Function: displays available commands
   
-    - create
+   - create
 
-         - Usage: create
-         - Function: creates new object (ex. a new User, Place)
+        - Usage: create
+        - Function: creates new object (ex. a new User, Place)
   
-    - update
+   - update
 
-         - Usage: User.update('123', {'name' : 'Jacob'})
-         - Function: updates attribute of an object
+        - Usage: User.update('123', {'name' : 'Jacob'})
+        - Function: updates attribute of an object
 
-    - destroy
+   - destroy
 
-         - Usage: User.destroy('123')
-         - Function: destroys specified object
+        - Usage: User.destroy('123')
+        - Function: destroys specified object
 
-    - show
+   - show
 
-         - Usage: User.show('123')
-         - Function: retrieves an object from a file, a database
+        - Usage: User.show('123')
+        - Function: retrieves an object from a file, a database
 
-    - all
+   - all
 
-         - Usage: User.all()
-         - Function: displays all objects in class
+        - Usage: User.all()
+        - Function: displays all objects in class
 
-    - count
+   - count
 
-         - Usage: User.count()
-         - Function: returns count of objects in specified class
+        - Usage: User.count()
+        - Function: returns count of objects in specified class
 
-    - quit
+   - quit
 
-         - Usage: quit
-         - Function: exits command interpreter
+        - Usage: quit
+        - Function: exits command interpreter
 ## Examples
 
-    - Creating user
+   - Creating user
 
 ## Unittest
     
-    - Run the entire:
+   - Run the entire:
 
 $ python3 unittest -m discover tests
 
-    - Run single file test:
+   - Run single file test:
 
 $ python3 unittest -m tests/test_console.py
 
 ## Environment
 
-    - Language: Python3
-    - OS: Ubuntu 14.04 LTS
-    - Style guidelines: PEP 8
+   - Language: Python3
+   - OS: Ubuntu 14.04 LTS
+   - Style guidelines: PEP 8
 
 ## Authors
-    - Ernest Aiji
-    - Nebeolisa Nnamdi
+   - Ernest Aiji
+   - Nebeolisa Nnamdi
