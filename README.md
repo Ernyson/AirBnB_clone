@@ -35,49 +35,61 @@ In the console.py, you will find the following commands:
 
        - Usage: help
        - Function: displays available commands
-create
+  
+   - create
 
-Usage: create
-Function: creates new object (ex. a new User, Place)
-update
+       - Usage: create
+       - Function: creates new object (ex. a new User, Place)
+  
+    - update
 
-Usage: User.update('123', {'name' : 'Jacob'})
-Function: updates attribute of an object
-destroy
+        - Usage: User.update('123', {'name' : 'Jacob'})
+        - Function: updates attribute of an object
 
-Usage: User.destroy('123')
-Function: destroys specified object
-show
+   - destroy
 
-Usage: User.show('123')
-Function: retrieves an object from a file, a database
-all
+        - Usage: User.destroy('123')
+        - Function: destroys specified object
 
-Uasge: User.all()
-Function: displays all objects in class
-count
+   - show
 
-Usage: User.count()
-Function: returns count of objects in specified class
-quit
+        - Usage: User.show('123')
+        - Function: retrieves an object from a file, a database
 
-Usage: quit
-Function: exits command interpreter
-Examples
-Creating user
-Unittest
-Run the entire:
+   - all
+
+        - Usage: User.all()
+        - Function: displays all objects in class
+
+   - count
+
+        - Usage: User.count()
+        - Function: returns count of objects in specified class
+
+   - quit
+
+        - Usage: quit
+        - Function: exits command interpreter
+## Examples
+
+   - Creating user
+
+## Unittest
+    
+   - Run the entire:
 
 $ python3 unittest -m discover tests
 
-Run single file test:
+   - Run single file test:
 
 $ python3 unittest -m tests/test_console.py
 
-Environment
-Language: Python3
-OS: Ubuntu 14.04 LTS
-Style guidelines: PEP 8
-Authors
-Ernest Aiji
-Nebeolisa Nnamdi
+## Environment
+
+   - Language: Python3
+   - OS: Ubuntu 14.04 LTS
+   - Style guidelines: PEP 8
+
+## Authors
+   - Ernest Aiji
+   - Nebeolisa Nnamdi
