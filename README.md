@@ -92,4 +92,4 @@ $ python3 unittest -m tests/test_console.py
 
 ## Authors
    - Ernest Aiji
-   - Nebeolisa Nnamdi
+   - Nnamdi Nebeolisa
